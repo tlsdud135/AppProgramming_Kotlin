@@ -1,0 +1,32 @@
+@charset "UTF-8";
+*{text-align: center;
+color:white;}
+body{
+	background-color:#D9E5FF;
+}
+.join{
+	width:260px;
+}
+.j{
+	width:260px;
+}
+div{
+
+	width:500px;
+	height:10%;
+	padding-left:5%;
+	padding-right:5%;
+	background-color:#223C6F;
+}
+form{
+	width:500px;
+	padding:5%;
+	background-color:skyblue;
+}
+button{
+	background-color:black;
+}
+input{
+	color:green;
+	text-align: left;
+}
