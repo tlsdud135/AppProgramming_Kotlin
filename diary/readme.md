@@ -4,9 +4,9 @@ Day by Day
 2. 메인화면 - 일기 생성, 수정
 3. 캘린더 - 날짜별 일기 횟수 저장
 4. 설정 - 로그인정보 확인, 로그아웃
-일기 내용- 날짜, 기분, 위치(날씨), 제목, 내용
-recyclerview - 날짜, 제목, 기분, 날씨
-DB - FireBase
+일기 내용- 날짜, 기분, 위치(날씨), 제목, 내용\n
+recyclerview - 날짜, 제목, 기분, 날씨\n
+DB - FireBase\n
   diarys
     id(키)
       내용
