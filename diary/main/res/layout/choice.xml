@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#46B7C8A4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_weight="8"
+            android:layout_marginLeft="5dp"
+            android:text="날짜: "/>
+        <Button
+            android:id="@+id/btn_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="2"
+            android:text="선택"/>
+    </LinearLayout>
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp">
+
+        <RadioButton
+            android:id="@+id/r1"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img1"/>
+        <RadioButton
+            android:layout_marginLeft="15dp"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/r2" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img2"/>
+        <RadioButton
+            android:layout_marginLeft="15dp"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/r3" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img3"/>
+        <RadioButton
+            android:layout_marginLeft="15dp"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/r4" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img4"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_loc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="위치 추가"
+        android:textSize="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="제목: "/>
+        <EditText
+            android:textSize="30dp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/input1"
+            android:lines="1"/>
+    </LinearLayout>
+    <EditText
+        android:layout_margin="5dp"
+        android:id="@+id/input2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="내용"
+        android:lines="14"
+        android:inputType="textMultiLine"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_can"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:layout_weight="1"
+            android:text="취소"/>
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:text="저장"/>
+    </LinearLayout>
+
+
+</LinearLayout>

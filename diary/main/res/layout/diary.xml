@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#46A6D374">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_weight="9"
+            android:id="@+id/idTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:text="2020-01-01"/>
+        <ImageView
+            android:id="@+id/face_img"
+            android:layout_margin="5dp"
+            android:layout_weight="2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/img1"/>
+        <ImageView
+            android:id="@+id/whe_img"
+            android:layout_margin="5dp"
+            android:layout_weight="2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/w1"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/idTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="제목"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+</LinearLayout>
